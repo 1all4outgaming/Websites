@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indian Cricketers -Scores and Net Worth</title>
+    <link rel="shortcut icon" href="/Image/haha.png" type="image/png">
+    <style>
+        /* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Website-name h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f4d03f;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.Website-links nav {
+  display: flex;
+  list-style: none;
+}
+
+.Website-links nav li a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.Website-links nav li a:hover {
+  color: #f4d03f;
+}
+
+.search-button {
+  display: flex;
+  align-items: center;
+}
+
+.search-button label img {
+  margin-right: 5px;
+}
+
+.search-button input {
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: box-shadow 0.3s;
+}
+
+.search-button input:focus {
+  box-shadow: 0 0 10px #f4d03f;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+main p {
+  margin-bottom: 20px;
+}
+
+.Cricketers-Table h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background: #f4d03f;
+  color: #fff;
+}
+
+table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+table tr:hover {
+  background: #f4f4f4;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  .Website-links nav {
+    flex-wrap: wrap;
+  }
+
+  .Website-links nav li a {
+    margin: 10px 5px;
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+
+        <div class="Website-name ">
+            <!-- this is my website name if css add make it top -->
+            <h1><b>all4hub</b></h1>
+        </div>
+      <div class="Website-links">
+        <nav>
+          <li>
+            <!-- this is google button add in header  -->
+            <a href="https://google.com" target="_blank"><b>Google</b></a>
+            <!-- this is github button add as a header -->
+            <a href="https://github.com" target="_blank"><b>Github</b></a>
+            <!-- this is instagram button add in header  -->
+              <a href="https://instagram.com" target="_blank"><b>Instagram</b></a>
+            <!-- this is facebook button add in header  -->
+            </li>
+        </nav>
+      </div>
+      <div class="search-button">
+        <!-- this is search button if you add css make sure looks better -->
+
+         <!-- this label is website search logo and if this size not good chatgpt you can write width accoding to you -->
+         <label for="search"><img src="/Image/loupe.png" alt="Search logo" width="15"></label>
+         <input id="search" type="search" placeholder="Search Here">
+      </div>
+    </header>
+    <main>
+        <p>Indian cricketers have made their mark both on add off the field. Sachin Tendulkar, with his highest score of 200* in tests and odis, has an estimated net worth of $150 million. Virat Kohli, another top player, boasts a highest test score of 254* and an ODI score of 183, with a networth of $93 million. Other stars like MS Dhoni ($110 million net worth) and Rohit Sharma (highest ODI score of 264) have also earned substantial wealth through their cricketing success and endorsements. these players have become global icons with impressive careers and financial achivements.</p>
+        <br>
+        <div class="Cricketers-Table">
+            <h2><b>Top 10 Indian Cricketers</b></h2>
+            <br>
+            <table>
+                <thead>
+                    <tr>
+                        <th><b>Cricketer</b></th>
+                        <th><b>Highest Test Score</b></th>
+                        <th><b>Highest ODI Score</b></th>
+                        <th><b>Estimated Net Worth</b></th>
+                    </tr>
+                </thead>
+                <div>
+                    <tbody>
+                        <tr>
+                            <td>Sachin Tendulkar</td>
+                            <td>200*</td>
+                            <td>200</td>
+                            <td>$150 million</td>
+                        </tr>
+                        <tr>
+                            <td>Virat Kholi</td>
+                            <td>254*</td>
+                            <td>183</td>
+                            <td>$93 million</td>
+                        </tr>
+                        <tr>
+                            <td>Rohit Sharma</td>
+                            <td>264*</td>
+                            <td>264</td>
+                            <td>$22 million</td>
+                        </tr>
+                        <tr>
+                            <td>Rahul Dravid</td>
+                            <td>270*</td>
+                            <td>153</td>
+                            <td>$23 million</td>
+                        </tr>
+                        <tr>
+                            <td>Sourav Ganguly</td>
+                            <td>239*</td>
+                            <td>183</td>
+                            <td>$50 million</td>
+                        </tr>
+                        <tr>
+                            <td>Yuvraj Singh</td>
+                            <td>169*</td>
+                            <td>150</td>
+                            <td>$35 million</td>
+                        </tr>
+                        <tr>
+                            <td>MS Dhoni</td>
+                            <td>148*</td>
+                            <td>183</td>
+                            <td>$110</td>
+                        </tr>
+                        <tr>
+                            <td>Virender Sehwag</td>
+                            <td>319</td>
+                            <td>219</td>
+                            <td>45</td>
+                        </tr>
+                        <tr>
+                            <td>Gautam Gambhir</td>
+                            <td>206*</td>
+                            <td>97</td>
+                            <td>$19</td>
+                        </tr>
+                        <tr>
+                            <td>Suresh Raina</td>
+                            <td>120*</td>
+                            <td>104</td>
+                            <td>$25</td>
+                        </tr>
+
+                    </tbody>
+                </div>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 all4hub. All rigth reserved.</p>
+        <p>Designed by all4outgaming</p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
